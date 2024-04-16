@@ -1,0 +1,91 @@
+**NOTE**
+
+#### Please enable "Allow edits by maintainers" while putting up the PR.
+
+---
+
+> - If you would like to add a `volume` adapter please submit the PR [here](https://github.com/DefiLlama/adapters).
+> - If you would like to add a `liquidations` adapter, please refer to [this readme document](https://github.com/DefiLlama/DefiLlama-Adapters/tree/main/liquidations) for details.
+
+1. Once your adapter has been merged, it takes time to show on the UI. If more than 24 hours have passed, please let us know in Discord.
+2. Sorry, We no longer accept fetch adapter for new projects, we prefer the tvl to computed from blockchain data, if you have trouble with creating a the adapter, please hop onto our discord, we are happy to assist you.
+3. Please fill the form below  **only if the PR is for listing a new protocol** else it can be ignored/replaced with reason/details about the PR
+4. **For updating listing info** It is a different repo, you can find your listing in this file: https://github.com/DefiLlama/defillama-server/blob/master/defi/src/protocols/data2.ts, you can  edit it there and put up a PR
+5. Do not edit/push `package-lock.json` file as part of your changes, we use lockfileVersion 2, and most use v1 and using that messes up our CI
+6. No need to go to our discord and announce that you've created a PR, we monitor all PRs and will review it asap
+
+---
+##### Name (to be shown on DefiLlama):
+Artificial Liquid Intelligence
+
+
+##### Twitter Link:
+https://twitter.com/The_AI_Protocol
+
+
+##### List of audit links if any:
+https://hackmd.io/@naps62/alierc20-audit
+
+
+##### Website Link:
+https://aiprotocol.info
+
+
+##### Logo (High resolution, will be shown with rounded borders):
+https://s2.coinmarketcap.com/static/img/coins/64x64/16876.png
+
+
+##### Current TVL:
+6,549,303,865.144587 ALI or 130,986,077 USD
+
+
+##### Treasury Addresses (if the protocol has treasury):
+0x46d608d34D1d4e94Eb15329747ceF7E5f5854C00
+
+
+##### Chain:
+Ethereum
+
+
+##### Coingecko ID (so your TVL can appear on Coingecko, leave empty if not listed): (https://api.coingecko.com/api/v3/coins/list)
+alethea-artificial-liquid-intelligence-token
+
+
+##### Coinmarketcap ID (so your TVL can appear on Coinmarketcap, leave empty if not listed): (https://api.coinmarketcap.com/data-api/v3/map/all?listing_status=active,inactive,untracked&start=1&limit=10000)
+16876
+
+
+##### Short Description (to be shown on DefiLlama):
+The native ERC-20 Artificial Liquid Intelligence (ALI) Utility Token is fundamental to the decentralized operations, governance, and growth of the AI Protocol.
+
+The ALI Token is a blockchain-agnostic asset that can be used for creating assets, providing liquidity, staking, transacting, accessing AI Services, upgrading tokenized assets, governing the AI Protocol, rewarding various forms of user and creator participation, and much more.
+
+On the Protocol level, the ALI Token serves to regulate, incentivize, and reward the various participants of the AI Protocol. As a decentralized protocol with a variety of participants engaging in complex tasks, the AI Protocol requires a native utility token to not only function efficiently but to grow using the inherent advantages of token network effects.
+
+
+##### Token address and ticker if any:
+0x6B0b3a982b4634aC68dD83a4DBF02311cE324181, ALI
+
+
+##### Category (full list at https://defillama.com/categories) *Please choose only one:
+Services
+
+
+##### Oracle Provider(s): Specify the oracle(s) used (e.g., Chainlink, Band, API3, TWAP, etc.): Not used; protocol operates using ALI token only
+##### Implementation Details: Briefly describe how the oracle is integrated into your project: N/A
+##### Documentation/Proof: Provide links to documentation or any other resources that verify the oracle's usage: N/A
+
+##### forkedFrom (Does your project originate from another project): No
+
+
+##### methodology (what is being counted as tvl, how is tvl being calculated):
+TVL is counted as a sum of ALI tokens on the accounts holding:
+Ecosystem Development Reserve: 0x26aAf7491588d4fF1146523917Fb196B307603C8
+Private and Strategic Sale Reserve: 0x562B3143b566920becAb5f477C1c55c0FCBEcDDd
+Team and Advisor Reserve: 0x5c17ed4B16672Fd134b9046957e3FE68A7e8A139
+Marketing Reserve: 0x6244b5c1E3056298055df674dA546e319711afA8
+Treasury Reserve: 0x46d608d34D1d4e94Eb15329747ceF7E5f5854C00
+
+
+##### Github org/user (Optional, if your code is open source, we can track activity):
+ai-protocol-official
